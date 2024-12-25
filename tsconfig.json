@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": ".", // Ensure this points to the correct base directory for your project
+    "outDir": "./dist",
+    "target": "ES2020",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*", "index.ts", "Utilities", "Model", "Controller"],
+  "exclude": ["node_modules", "dist"]
+}
